@@ -80,7 +80,7 @@ Bundle 'apidock.vim'
 " toggle ruby blocks style
 Bundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
-Bundle 'josemarluedke/vim-rspec'
+Bundle 'thoughtbot/vim-rspec'
 
 " color themes
 Bundle 'altercation/vim-colors-solarized'
@@ -133,3 +133,4 @@ Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'vim-pandoc/vim-pandoc'
 Bundle 'godlygeek/tabular'
+Bundle 'jgdavey/tslime.vim'
