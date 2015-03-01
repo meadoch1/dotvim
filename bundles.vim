@@ -133,3 +133,6 @@ Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'vim-pandoc/vim-pandoc'
 Bundle 'godlygeek/tabular'
+
+" Entries for Erlang
+Bundle 'jimenezrick/vimerl'
