@@ -1,0 +1,1321 @@
+
+
+
+n  <C-W>gf      @<Plug>RailsTabFind
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  <C-W>f       @<Plug>RailsSplitFind
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  gf           @<Plug>RailsFind
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  y<C-G>      *@:call setreg(v:register, <SNR>67_recall())<CR>
+	Last set from ~/dotvim/bundle/vim-fugitive/plugin/fugitive.vim
+n  <Plug>RailsTabFind *@:<C-U>call <SNR>174_Find(v:count1,'T')<CR>
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  <Plug>RailsVSplitFind *@:<C-U>call <SNR>174_Find(v:count1,'V')<CR>
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  <Plug>RailsSplitFind *@:<C-U>call <SNR>174_Find(v:count1,'S')<CR>
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  <Plug>RailsFind *@:<C-U>call <SNR>174_Find(v:count1,'E')<CR>
+	Last set from ~/dotvim/bundle/vim-rails/autoload/rails.vim
+n  <C-E>         :b#<CR>
+	Last set from ~/dotvim/bindings.vim
+n  <C-H>       * <C-W>h
+	Last set from ~/dotvim/bindings.vim
+s  <Tab>       * <Esc>i<Right><C-R>=TriggerSnippet()<CR>
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+n  <NL>        * <C-W>j
+	Last set from ~/dotvim/bindings.vim
+n  <C-K>       * <C-W>k
+	Last set from ~/dotvim/bindings.vim
+n  <C-L>       * <C-W>l
+	Last set from ~/dotvim/bindings.vim
+n  <C-N>         :silent noh<CR>
+	Last set from ~/dotvim/bindings.vim
+n  <C-P>         :NERDTreeTabsToggle<CR>
+	Last set from ~/dotvim/plugins.vim
+s  <C-X>       * b<BS><C-X>
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+   <Space>     * <SNR>130_do_space(0, " ")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+n  #           * #zz
+	Last set from ~/dotvim/bindings.vim
+ov #           * <SNR>130_setup_space("search", "#")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+o  $             YRMapsExpression("<SNR>66_", "$")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+s  %           * b<BS>%
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+o  %           * v:<C-U>call <SNR>29_Match_wrapper('',1,'o') <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+x  %           * :<C-U>call <SNR>29_Match_wrapper('',1,'v') <CR>m'gv``
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+n  %           * :<C-U>call <SNR>29_Match_wrapper('',1,'n') <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+s  '           * b<BS>'
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+n  *           * *zz
+	Last set from ~/dotvim/bindings.vim
+ov *           * <SNR>130_setup_space("search", "*")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+n  +           * <C-A>
+	Last set from ~/dotvim/bindings.vim
+o  +             YRMapsExpression("<SNR>66_", "+")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+   ,:            :Tab /:<CR>
+	Last set from ~/.vimrc.after
+   ,h            :Tab /=><CR>
+	Last set from ~/.vimrc.after
+   ,=            :Tab /=<CR>
+	Last set from ~/.vimrc.after
+n  ,W          * :%s/\s\+$//<CR>:let @/=''<CR>
+	Last set from ~/dotvim/bindings.vim
+n  ,dg           :diffget<CR>
+	Last set from ~/dotvim/bindings.vim
+n  ,dp           :diffput<CR>
+	Last set from ~/dotvim/bindings.vim
+n  ,d            :diffupdate<CR>
+	Last set from ~/dotvim/bindings.vim
+n  ,N            :cp<CR>
+	Last set from ~/dotvim/bindings.vim
+n  ,n            :cn<CR>
+	Last set from ~/dotvim/bindings.vim
+n  ,e            :e **/
+	Last set from ~/dotvim/bindings.vim
+n  ,s            :set nolist!<CR>
+	Last set from ~/dotvim/bindings.vim
+v  ,rem        * :RExtractMethod<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+v  ,rriv       * :RRenameInstanceVariable<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+v  ,rrlv       * :RRenameLocalVariable<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+v  ,relv       * :RExtractLocalVariable<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+v  ,rec        * :RExtractConstant<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,riv        * :RIntroduceVariable<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,rcpc       * :RConvertPostConditional<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,rel        * :RExtractLet<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,rit        * :RInlineTemp<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,rapn       * :RAddParameterNB<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,rap        * :RAddParameter<CR>
+	Last set from ~/dotvim/bundle/vim-ruby-refactoring/plugin/ruby-refactoring.vim
+n  ,hp           <Plug>GitGutterPreviewHunk
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  ,hr           <Plug>GitGutterRevertHunk
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  ,hs           <Plug>GitGutterStageHunk
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+x  ,Nr           <Plug>NrrwrgnBangDo
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+n  ,nr           <Plug>NrrwrgnDo
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+x  ,nr           <Plug>NrrwrgnDo
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+n  ,caL          <Plug>CalendarH
+	Last set from ~/dotvim/bundle/calendar.vim--Matsumoto/plugin/calendar.vim
+n  ,cal          <Plug>CalendarV
+	Last set from ~/dotvim/bundle/calendar.vim--Matsumoto/plugin/calendar.vim
+n  ,ig           <Plug>IndentGuidesToggle
+	Last set from ~/dotvim/bundle/Indent-Guides/plugin/indent_guides.vim
+   ,rwp          <Plug>RestoreWinPosn
+	Last set from ~/dotvim/bundle/vim-align/plugin/cecutil.vim
+   ,swp          <Plug>SaveWinPosn
+	Last set from ~/dotvim/bundle/vim-align/plugin/cecutil.vim
+   ,tt           <Plug>AM_tt
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,tsq          <Plug>AM_tsq
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,tsp          <Plug>AM_tsp
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,tml          <Plug>AM_tml
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,tab          <Plug>AM_tab
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,m=           <Plug>AM_m=
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t@           <Plug>AM_t@
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t~           <Plug>AM_t~
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t?           <Plug>AM_t?
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,w=           <Plug>AM_w=
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,ts=          <Plug>AM_ts=
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,ts<          <Plug>AM_ts<
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,ts;          <Plug>AM_ts;
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,ts:          <Plug>AM_ts:
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,ts,          <Plug>AM_ts,
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t=           <Plug>AM_t=
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t<           <Plug>AM_t<
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t;           <Plug>AM_t;
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t:           <Plug>AM_t:
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t,           <Plug>AM_t,
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t#           <Plug>AM_t#
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,t|           <Plug>AM_t|
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T~           <Plug>AM_T~
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,Tsp          <Plug>AM_Tsp
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,Tab          <Plug>AM_Tab
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T@           <Plug>AM_T@
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T?           <Plug>AM_T?
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T=           <Plug>AM_T=
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T<           <Plug>AM_T<
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T;           <Plug>AM_T;
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T:           <Plug>AM_T:
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,Ts,          <Plug>AM_Ts,
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T,           <Plug>AM_T,o
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T#           <Plug>AM_T#
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,T|           <Plug>AM_T|
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,Htd          <Plug>AM_Htd
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,anum         <Plug>AM_aunum
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,aunum        <Plug>AM_aenum
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,afnc         <Plug>AM_afnc
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,adef         <Plug>AM_adef
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,adec         <Plug>AM_adec
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,ascom        <Plug>AM_ascom
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,aocom        <Plug>AM_aocom
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,adcom        <Plug>AM_adcom
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,acom         <Plug>AM_acom
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,abox         <Plug>AM_abox
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,a(           <Plug>AM_a(
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,a=           <Plug>AM_a=
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,a<           <Plug>AM_a<
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,a,           <Plug>AM_a,
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   ,a?           <Plug>AM_a?
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+n  ,]          * :<C-U>YRReplace '1', p<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  ,[          * :<C-U>YRReplace '-1', P<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+   ,           * <SNR>130_setup_space("char", ",")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+n  ,,          * :<C-U>CtrlP<CR>
+	Last set from ~/dotvim/bundle/ctrlp.vim/plugin/ctrlp.vim
+n  ,ca           <Plug>NERDCommenterAltDelims
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cu           <Plug>NERDCommenterUncomment
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cu           <Plug>NERDCommenterUncomment
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cb           <Plug>NERDCommenterAlignBoth
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cb           <Plug>NERDCommenterAlignBoth
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cl           <Plug>NERDCommenterAlignLeft
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cl           <Plug>NERDCommenterAlignLeft
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cA           <Plug>NERDCommenterAppend
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cy           <Plug>NERDCommenterYank
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cy           <Plug>NERDCommenterYank
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cs           <Plug>NERDCommenterSexy
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cs           <Plug>NERDCommenterSexy
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,ci           <Plug>NERDCommenterInvert
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,ci           <Plug>NERDCommenterInvert
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,c$           <Plug>NERDCommenterToEOL
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cn           <Plug>NERDCommenterNested
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cn           <Plug>NERDCommenterNested
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cm           <Plug>NERDCommenterMinimal
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cm           <Plug>NERDCommenterMinimal
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,c<Space>     <Plug>NERDCommenterToggle
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,c<Space>     <Plug>NERDCommenterToggle
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cc           <Plug>NERDCommenterComment
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cc           <Plug>NERDCommenterComment
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+   ,r            :call RunNearestSpec()<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,u            :GundoToggle<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,o            :Utl
+	Last set from ~/dotvim/plugins.vim
+n  ,k            :Ag<Space>
+	Last set from ~/dotvim/plugins.vim
+v  ,f            y:let @/=escape(@", '\\[]$^*.')<CR>:set hls<CR>:silent Ggrep -F "<C-R>=escape(@", '\\"#')<CR>"<CR>:ccl<CR>:cw<CR><CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,f            :let @/="\\<<C-R><C-W>\\>"<CR>:set hls<CR>:silent Ggrep -w "<C-R><C-W>"<CR>:ccl<CR>:cw<CR><CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,g            :silent Ggrep<Space>
+	Last set from ~/dotvim/plugins.vim
+n  ,M            :CtrlPBufTagAll<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,m            :CtrlPBufTag<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,b            :CtrlPBuff<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,l            :CtrlPLine<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,.            :CtrlPClearCache<CR>:CtrlP<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,y            :YRShow<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,R            :ConqueSplit
+	Last set from ~/dotvim/plugins.vim
+n  ,sh           :ConqueSplit bash<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,SA           :SessionSaveAs<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,SS           :SessionSave<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,S            :SessionList<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,t            :TlistToggle<CR>
+	Last set from ~/dotvim/plugins.vim
+v  ,/            :call NERDComment(0, "invert")<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,/            :call NERDComment(0, "invert")<CR>
+	Last set from ~/dotvim/plugins.vim
+n  ,p            :NERDTreeFind<CR>
+	Last set from ~/dotvim/plugins.vim
+n  -           * <C-X>
+	Last set from ~/dotvim/bindings.vim
+o  -             YRMapsExpression("<SNR>66_", "-")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  .             YRMapsExpression("<SNR>66_", ".")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  /             YRMapsExpression("<SNR>66_", "/", 1)
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  0             YRMapsExpression("<SNR>66_", "0")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+   ;           * <SNR>130_setup_space("char", ";")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+v  <           * <gv
+	Last set from ~/dotvim/bindings.vim
+n  <p          * :call <SNR>132_putline(']p', 'Below')<CR><']
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <P          * :call <SNR>132_putline('[p', 'Above')<CR><']
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  =p          * :call <SNR>132_putline(']p', 'Below')<CR>=']
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  =P          * :call <SNR>132_putline('[p', 'Above')<CR>=']
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+v  >           * >gv
+	Last set from ~/dotvim/bindings.vim
+n  >p          * :call <SNR>132_putline(']p', 'Below')<CR>>']
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  >P          * :call <SNR>132_putline('[p', 'Above')<CR>>']
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+o  ?             YRMapsExpression("<SNR>66_", "?", 1)
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  @             :<C-U>YRMapsMacro<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  B             YRMapsExpression("<SNR>66_", "B")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  D             D<SNR>66_yrrecord
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  E             YRMapsExpression("<SNR>66_", "E")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  F             YRMapsExpression("<SNR>66_", "F", 1)
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+nv F           * <SNR>130_setup_space("char", "F")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+o  G             YRMapsExpression("<SNR>66_", "G")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  H             YRMapsExpression("<SNR>66_", "H")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  L             YRMapsExpression("<SNR>66_", "L")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  M             YRMapsExpression("<SNR>66_", "M")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  N           * Nzz
+	Last set from ~/dotvim/bindings.vim
+ov N           * <SNR>130_setup_space("search", "N")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+x  P           * :<C-U>YRPaste 'P', 'v'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  P           * :<C-U>YRPaste 'P'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+   Q             gq
+	Last set from ~/dotvim/bindings.vim
+   RS          * :call OpenRspecDoc(expand('<cword>'))<CR>
+	Last set from ~/dotvim/bundle/apidock.vim/plugin/apidock.vim
+   RR          * :call OpenRailsDoc(expand('<cword>'))<CR>
+	Last set from ~/dotvim/bundle/apidock.vim/plugin/apidock.vim
+   RB          * :call OpenRubyDoc(expand('<cword>'))<CR>
+	Last set from ~/dotvim/bundle/apidock.vim/plugin/apidock.vim
+n  R           * R<C-R>=<SNR>64_feedPopup()<CR>
+	Last set from ~/dotvim/bundle/AutoComplPop/autoload/acp.vim
+x  S             <Plug>VSurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+o  T             YRMapsExpression("<SNR>66_", "T", 1)
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+nv T           * <SNR>130_setup_space("char", "T")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+s  U           * b<BS>U
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+o  W             YRMapsExpression("<SNR>66_", "W")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  X             X<SNR>66_yrrecord
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  Y           * y$
+	Last set from ~/dotvim/bindings.vim
+n  [xx           <Plug>unimpaired_line_xml_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  [x            <Plug>unimpaired_xml_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [x            <Plug>unimpaired_xml_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [uu           <Plug>unimpaired_line_url_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  [u            <Plug>unimpaired_url_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [u            <Plug>unimpaired_url_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [yy           <Plug>unimpaired_line_string_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  [y            <Plug>unimpaired_string_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [y            <Plug>unimpaired_string_encode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [p            <Plug>unimpairedPutAbove
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [ov         * :set virtualedit+=all<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [ox         * :set cursorline cursorcolumn<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [ow         * :set wrap<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [os         * :set spell<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [or         * :set relativenumber<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [on         * :set number<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [ol         * :set list<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [oi         * :set ignorecase<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [oh         * :set hlsearch<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [od         * :diffthis<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [ou         * :set cursorcolumn<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [oc         * :set cursorline<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [ob         * :set background=light<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  [e            <Plug>unimpairedMoveSelectionUp
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [e            <Plug>unimpairedMoveUp
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [<Space>      <Plug>unimpairedBlankUp
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+o  [n            <Plug>unimpairedContextPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [n            <Plug>unimpairedContextPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [o            <Plug>unimpairedOPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [f            <Plug>unimpairedDirectoryPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [T            <Plug>unimpairedTFirst
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [t            <Plug>unimpairedTPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [<C-Q>        <Plug>unimpairedQPFile
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [Q            <Plug>unimpairedQFirst
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [q            <Plug>unimpairedQPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [<C-L>        <Plug>unimpairedLPFile
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [L            <Plug>unimpairedLFirst
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [l            <Plug>unimpairedLPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [B            <Plug>unimpairedBFirst
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [b            <Plug>unimpairedBPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [A            <Plug>unimpairedAFirst
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  [a            <Plug>unimpairedAPrevious
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+   [z          * <SNR>130_setup_space("fold_start", "[z")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   []          * <SNR>130_setup_space("section_end", "[]")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   [[          * <SNR>130_setup_space("section_start", "[[")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   [M          * <SNR>130_setup_space("method_end", "[M")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   [m          * <SNR>130_setup_space("method_start", "[m")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   [{          * <SNR>130_setup_space("curly", "[{")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   [(          * <SNR>130_setup_space("paren", "[(")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   [c          * <SNR>130_setup_space("diff", "[c")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+o  [%          * v:<C-U>call <SNR>29_MultiMatch("bW", "o") <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+v  [%            <Esc>[%m'gv``
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+n  [%          * :<C-U>call <SNR>29_MultiMatch("bW", "n") <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+s  \           * b<BS>\
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+n  ]xx           <Plug>unimpaired_line_xml_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  ]x            <Plug>unimpaired_xml_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]x            <Plug>unimpaired_xml_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]uu           <Plug>unimpaired_line_url_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  ]u            <Plug>unimpaired_url_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]u            <Plug>unimpaired_url_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]yy           <Plug>unimpaired_line_string_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  ]y            <Plug>unimpaired_string_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]y            <Plug>unimpaired_string_decode
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]p            <Plug>unimpairedPutBelow
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]ov         * :set virtualedit-=all<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]ox         * :set nocursorline nocursorcolumn<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]ow         * :set nowrap<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]os         * :set nospell<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]or         * :set norelativenumber<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]on         * :set nonumber<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]ol         * :set nolist<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]oi         * :set noignorecase<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]oh         * :set nohlsearch<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]od         * :diffoff<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]ou         * :set nocursorcolumn<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]oc         * :set nocursorline<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]ob         * :set background=dark<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  ]e            <Plug>unimpairedMoveSelectionDown
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]e            <Plug>unimpairedMoveDown
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]<Space>      <Plug>unimpairedBlankDown
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+o  ]n            <Plug>unimpairedContextNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]n            <Plug>unimpairedContextNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]o            <Plug>unimpairedONext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]f            <Plug>unimpairedDirectoryNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]T            <Plug>unimpairedTLast
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]t            <Plug>unimpairedTNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]<C-Q>        <Plug>unimpairedQNFile
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]Q            <Plug>unimpairedQLast
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]q            <Plug>unimpairedQNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]<C-L>        <Plug>unimpairedLNFile
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]L            <Plug>unimpairedLLast
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]l            <Plug>unimpairedLNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]B            <Plug>unimpairedBLast
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]b            <Plug>unimpairedBNext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]A            <Plug>unimpairedALast
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ]a            <Plug>unimpairedANext
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+   ]z          * <SNR>130_setup_space("fold_start", "]z")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ][          * <SNR>130_setup_space("section_end", "][")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ]]          * <SNR>130_setup_space("section_start", "]]")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ]M          * <SNR>130_setup_space("method_end", "]M")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ]m          * <SNR>130_setup_space("method_start", "]m")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ]}          * <SNR>130_setup_space("curly", "]}")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ])          * <SNR>130_setup_space("paren", "])")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   ]c          * <SNR>130_setup_space("diff", "]c")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+o  ]%          * v:<C-U>call <SNR>29_MultiMatch("W",  "o") <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+v  ]%            <Esc>]%m'gv``
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+n  ]%          * :<C-U>call <SNR>29_MultiMatch("W",  "n") <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+s  ^           * b<BS>^
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+o  ^             YRMapsExpression("<SNR>66_", "^")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  _             YRMapsExpression("<SNR>66_", "_")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+s  `           * b<BS>`
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+o  ar            <Plug>(textobj-rubyblock-a)
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+x  ar            <Plug>(textobj-rubyblock-a)
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+v  ai          * :<C-U>call IndentTextObject(0)<CR><Esc>gv
+	Last set from ~/dotvim/bundle/vim-indentobject/plugin/indentobject.vim
+o  ai          * :<C-U>call IndentTextObject(0)<CR>
+	Last set from ~/dotvim/bundle/vim-indentobject/plugin/indentobject.vim
+o  a`            YRMapsExpression("<SNR>66_", "a`")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a'            YRMapsExpression("<SNR>66_", "a'")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a"            YRMapsExpression("<SNR>66_", "a\"")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  aB            YRMapsExpression("<SNR>66_", "aB")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a{            YRMapsExpression("<SNR>66_", "a{")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a}            YRMapsExpression("<SNR>66_", "a}")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  at            YRMapsExpression("<SNR>66_", "at")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a<            YRMapsExpression("<SNR>66_", "a<")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a>            YRMapsExpression("<SNR>66_", "a>")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  ab            YRMapsExpression("<SNR>66_", "ab")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a(            YRMapsExpression("<SNR>66_", "a(")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a)            YRMapsExpression("<SNR>66_", "a)")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a[            YRMapsExpression("<SNR>66_", "a[")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  a]            YRMapsExpression("<SNR>66_", "a]")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  ap            YRMapsExpression("<SNR>66_", "ap")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  as            YRMapsExpression("<SNR>66_", "as")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  aW            YRMapsExpression("<SNR>66_", "aW")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  aw            YRMapsExpression("<SNR>66_", "aw")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  a           * a<C-R>=<SNR>64_feedPopup()<CR>
+	Last set from ~/dotvim/bundle/AutoComplPop/autoload/acp.vim
+v  a%            <Esc>[%v]%
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+o  b             YRMapsExpression("<SNR>66_", "b")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  cov         * :set <C-R>=(&virtualedit =~# "all") ? 'virtualedit-=all' : 'virtualedit+=all'<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cox         * :set <C-R>=&cursorline && &cursorcolumn ? 'nocursorline nocursorcolumn' : 'cursorline cursorcolumn'<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cow         * :set <C-R>=<SNR>132_toggle("wrap")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cos         * :set <C-R>=<SNR>132_toggle("spell")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cor         * :set <C-R>=<SNR>132_toggle("relativenumber")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  con         * :set <C-R>=<SNR>132_toggle("number")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  col         * :set <C-R>=<SNR>132_toggle("list")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  coi         * :set <C-R>=<SNR>132_toggle("ignorecase")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  coh         * :set <C-R>=<SNR>132_toggle("hlsearch")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cod         * :<C-R>=&diff ? 'diffoff' : 'diffthis'<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cou         * :set <C-R>=<SNR>132_toggle("cursorcolumn")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  coc         * :set <C-R>=<SNR>132_toggle("cursorline")<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cob         * :set background=<C-R>=&background == 'dark' ? 'light' : 'dark'<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  cS            <Plug>CSurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  cs            <Plug>Csurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  ds            <Plug>Dsurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+x  d           * :YRDeleteRange 'v'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  d             YRMapsExpression("<SNR>66_", "d")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  e             YRMapsExpression("<SNR>66_", "e")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  f             YRMapsExpression("<SNR>66_", "f", 1)
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+nv f           * <SNR>130_setup_space("char", "f")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+n  g#          * g#z
+	Last set from ~/dotvim/bindings.vim
+n  g*          * g*zz
+	Last set from ~/dotvim/bindings.vim
+n  gx            <Plug>NetrwBrowseX
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/plugin/netrwPlugin.vim
+ov g#          * <SNR>130_setup_space("search", "g#")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+ov g*          * <SNR>130_setup_space("search", "g*")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+n  gs          * :Switch<CR>
+	Last set from ~/dotvim/bundle/switch.vim/plugin/switch.vim
+x  gS            <Plug>VgSurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  gp          * :<C-U>YRPaste 'gp'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  gP          * :<C-U>YRPaste 'gP'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  gE            YRMapsExpression("<SNR>66_", "gE")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  ge            YRMapsExpression("<SNR>66_", "ge")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  gg            YRMapsExpression("<SNR>66_", "gg")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  gj            YRMapsExpression("<SNR>66_", "gj")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  gk            YRMapsExpression("<SNR>66_", "gk")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  g$            YRMapsExpression("<SNR>66_", "g$")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  gm            YRMapsExpression("<SNR>66_", "gm")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  g^            YRMapsExpression("<SNR>66_", "g^")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  g_            YRMapsExpression("<SNR>66_", "g_")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  g%          * v:<C-U>call <SNR>29_Match_wrapper('',0,'o') <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+v  g%          * :<C-U>call <SNR>29_Match_wrapper('',0,'v') <CR>m'gv``
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+n  g%          * :<C-U>call <SNR>29_Match_wrapper('',0,'n') <CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/macros/matchit.vim
+o  h             YRMapsExpression("<SNR>66_", "h")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  ir            <Plug>(textobj-rubyblock-i)
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+x  ir            <Plug>(textobj-rubyblock-i)
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+v  ii          * :<C-U>call IndentTextObject(1)<CR><Esc>gv
+	Last set from ~/dotvim/bundle/vim-indentobject/plugin/indentobject.vim
+o  ii          * :<C-U>call IndentTextObject(1)<CR>
+	Last set from ~/dotvim/bundle/vim-indentobject/plugin/indentobject.vim
+o  i`            YRMapsExpression("<SNR>66_", "i`")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i'            YRMapsExpression("<SNR>66_", "i'")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i"            YRMapsExpression("<SNR>66_", "i\"")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  iB            YRMapsExpression("<SNR>66_", "iB")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i{            YRMapsExpression("<SNR>66_", "i{")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i}            YRMapsExpression("<SNR>66_", "i}")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  it            YRMapsExpression("<SNR>66_", "it")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i<            YRMapsExpression("<SNR>66_", "i<")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i>            YRMapsExpression("<SNR>66_", "i>")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  ib            YRMapsExpression("<SNR>66_", "ib")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i(            YRMapsExpression("<SNR>66_", "i(")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i)            YRMapsExpression("<SNR>66_", "i)")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i[            YRMapsExpression("<SNR>66_", "i[")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  i]            YRMapsExpression("<SNR>66_", "i]")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  ip            YRMapsExpression("<SNR>66_", "ip")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  is            YRMapsExpression("<SNR>66_", "is")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  iW            YRMapsExpression("<SNR>66_", "iW")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  iw            YRMapsExpression("<SNR>66_", "iw")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  i           * i<C-R>=<SNR>64_feedPopup()<CR>
+	Last set from ~/dotvim/bundle/AutoComplPop/autoload/acp.vim
+n  j           * gj
+	Last set from ~/dotvim/bindings.vim
+o  j             YRMapsExpression("<SNR>66_", "j")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  k           * gk
+	Last set from ~/dotvim/bindings.vim
+o  k             YRMapsExpression("<SNR>66_", "k")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  l             YRMapsExpression("<SNR>66_", "l")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  n           * nzz
+	Last set from ~/dotvim/bindings.vim
+ov n           * <SNR>130_setup_space("search", "n")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+x  p           * :<C-U>YRPaste 'p', 'v'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  p           * :<C-U>YRPaste 'p'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  t             YRMapsExpression("<SNR>66_", "t", 1)
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+nv t           * <SNR>130_setup_space("char", "t")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+o  w             YRMapsExpression("<SNR>66_", "w")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+x  x           * :YRDeleteRange 'v'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  x             x<SNR>66_yrrecord
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  yO          * :call <SNR>132_setup_paste()<CR>O
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  yo          * :call <SNR>132_setup_paste()<CR>o
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  ySS           <Plug>YSsurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  ySs           <Plug>YSsurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  yss           <Plug>Yssurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  yS            <Plug>YSurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  ys            <Plug>Ysurround
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+x  y           * :YRYankRange 'v'<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+o  y             YRMapsExpression("<SNR>66_", "y")
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+   zk          * <SNR>130_setup_space("fold_next", "zk")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+   zj          * <SNR>130_setup_space("fold_next", "zj")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+s  <Left>      * <Esc>bi
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+s  <Right>     * <Esc>a
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+s  <BS>        * b<BS>
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+s  <S-Tab>     * <Esc>i<Right><C-R>=BackwardsSnippet()<CR>
+	Last set from ~/dotvim/bundle/snipmate.vim/after/plugin/snipMate.vim
+   <S-Insert>    <MiddleMouse>
+	Last set from ~/dotvim/bindings.vim
+n  <Plug>NetrwBrowseX * :call netrw#NetrwBrowseX(expand("<cfile>"),0)<CR>
+	Last set from /usr/local/Cellar/vim/7.4.488/share/vim/vim74/plugin/netrwPlugin.vim
+n  <Plug>SetTmuxVars   :call <SNR>147_Tmux_Vars()<CR>
+	Last set from ~/dotvim/bundle/tslime.vim/plugin/tslime.vim
+n  <Plug>NormalModeSendToTmux   vip <Plug>SendSelectionToTmux
+	Last set from ~/dotvim/bundle/tslime.vim/plugin/tslime.vim
+v  <Plug>SendSelectionToTmux   "ry :call Send_to_Tmux(@r)<CR>
+	Last set from ~/dotvim/bundle/tslime.vim/plugin/tslime.vim
+   <SNR>141_DashGlobalSearch * :Dash!<CR>
+	Last set from ~/dotvim/bundle/dash.vim/plugin/dash.vim
+   <Plug>DashGlobalSearch & <SNR>141_DashGlobalSearch
+	Last set from ~/dotvim/bundle/dash.vim/plugin/dash.vim
+   <SNR>141_DashSearch * :Dash<CR>
+	Last set from ~/dotvim/bundle/dash.vim/plugin/dash.vim
+   <Plug>DashSearch & <SNR>141_DashSearch
+	Last set from ~/dotvim/bundle/dash.vim/plugin/dash.vim
+n  <Plug>unimpaired_line_xml_decode * :<C-U>call <SNR>132_Transform("xml_decode",v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  <Plug>unimpaired_xml_decode * :<C-U>call <SNR>132_Transform("xml_decode",visualmode())<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_xml_decode * :<C-U>call <SNR>132_TransformSetup("xml_decode")<CR>g@
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_line_xml_encode * :<C-U>call <SNR>132_Transform("xml_encode",v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  <Plug>unimpaired_xml_encode * :<C-U>call <SNR>132_Transform("xml_encode",visualmode())<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_xml_encode * :<C-U>call <SNR>132_TransformSetup("xml_encode")<CR>g@
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_line_url_decode * :<C-U>call <SNR>132_Transform("url_decode",v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  <Plug>unimpaired_url_decode * :<C-U>call <SNR>132_Transform("url_decode",visualmode())<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_url_decode * :<C-U>call <SNR>132_TransformSetup("url_decode")<CR>g@
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_line_url_encode * :<C-U>call <SNR>132_Transform("url_encode",v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  <Plug>unimpaired_url_encode * :<C-U>call <SNR>132_Transform("url_encode",visualmode())<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_url_encode * :<C-U>call <SNR>132_TransformSetup("url_encode")<CR>g@
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_line_string_decode * :<C-U>call <SNR>132_Transform("string_decode",v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  <Plug>unimpaired_string_decode * :<C-U>call <SNR>132_Transform("string_decode",visualmode())<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_string_decode * :<C-U>call <SNR>132_TransformSetup("string_decode")<CR>g@
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_line_string_encode * :<C-U>call <SNR>132_Transform("string_encode",v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+x  <Plug>unimpaired_string_encode * :<C-U>call <SNR>132_Transform("string_encode",visualmode())<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpaired_string_encode * :<C-U>call <SNR>132_TransformSetup("string_encode")<CR>g@
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedPutBelow * :call <SNR>132_putline(']p', 'Below')<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedPutAbove * :call <SNR>132_putline('[p', 'Above')<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedPaste * :call <SNR>132_setup_paste()<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+   <Plug>unimpairedMoveSelectionDown * :<C-U>call <SNR>132_MoveSelectionDown(v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+   <Plug>unimpairedMoveSelectionUp * :<C-U>call <SNR>132_MoveSelectionUp(v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedMoveDown * :<C-U>call <SNR>132_Move('+',v:count1,'Down')<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedMoveUp * :<C-U>call <SNR>132_Move('--',v:count1,'Up')<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedBlankDown * :<C-U>call <SNR>132_BlankDown(v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedBlankUp * :<C-U>call <SNR>132_BlankUp(v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+o  <Plug>unimpairedContextNext * :call <SNR>132_ContextMotion(0)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+o  <Plug>unimpairedContextPrevious * :call <SNR>132_ContextMotion(1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedContextNext * :call <SNR>132_Context(0)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedContextPrevious * :call <SNR>132_Context(1)<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedOPrevious   <Plug>unimpairedDirectoryPrevious:echohl WarningMSG|echo "[o is deprecated. Use [f"|echohl NONE<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedONext   <Plug>unimpairedDirectoryNext:echohl WarningMSG|echo "]o is deprecated. Use ]f"|echohl NONE<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedDirectoryPrevious * :<C-U>edit <C-R>=fnamemodify(<SNR>132_fnameescape(<SNR>132_FileByOffset(-v:count1)), ':.')<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedDirectoryNext * :<C-U>edit <C-R>=fnamemodify(<SNR>132_fnameescape(<SNR>132_FileByOffset(v:count1)), ':.')<CR><CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedTLast * :<C-U>exe "".(v:count ? v:count : "")."tlast"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedTFirst * :<C-U>exe "".(v:count ? v:count : "")."tfirst"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedTNext * :<C-U>exe "".(v:count ? v:count : "")."tnext"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedTPrevious * :<C-U>exe "".(v:count ? v:count : "")."tprevious"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedQNFile * :<C-U>exe "".(v:count ? v:count : "")."cnfile"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedQPFile * :<C-U>exe "".(v:count ? v:count : "")."cpfile"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedQLast * :<C-U>exe "".(v:count ? v:count : "")."clast"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedQFirst * :<C-U>exe "".(v:count ? v:count : "")."cfirst"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedQNext * :<C-U>exe "".(v:count ? v:count : "")."cnext"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedQPrevious * :<C-U>exe "".(v:count ? v:count : "")."cprevious"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedLNFile * :<C-U>exe "".(v:count ? v:count : "")."lnfile"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedLPFile * :<C-U>exe "".(v:count ? v:count : "")."lpfile"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedLLast * :<C-U>exe "".(v:count ? v:count : "")."llast"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedLFirst * :<C-U>exe "".(v:count ? v:count : "")."lfirst"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedLNext * :<C-U>exe "".(v:count ? v:count : "")."lnext"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedLPrevious * :<C-U>exe "".(v:count ? v:count : "")."lprevious"<CR>zv
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedBLast * :<C-U>exe "".(v:count ? v:count : "")."blast"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedBFirst * :<C-U>exe "".(v:count ? v:count : "")."bfirst"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedBNext * :<C-U>exe "".(v:count ? v:count : "")."bnext"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedBPrevious * :<C-U>exe "".(v:count ? v:count : "")."bprevious"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedALast * :<C-U>exe "".(v:count ? v:count : "")."last"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedAFirst * :<C-U>exe "".(v:count ? v:count : "")."first"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedANext * :<C-U>exe "".(v:count ? v:count : "")."next"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+n  <Plug>unimpairedAPrevious * :<C-U>exe "".(v:count ? v:count : "")."previous"<CR>
+	Last set from ~/dotvim/bundle/vim-unimpaired/plugin/unimpaired.vim
+   <S-Space>   * <SNR>130_do_space(1, "<S-Space>")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+n  <Plug>(godoc-keyword) * :<C-U>call <SNR>128_Godoc('')<CR>
+	Last set from ~/dotvim/bundle/vim-gocode/plugin/godoc.vim
+n  <Plug>ClojureCloseResultBuffer. * :call vimclojure#ResultWindow.CloseWindow()<CR>
+	Last set from ~/dotvim/bundle/VimClojure/plugin/clojure.vim
+n  <Plug>ClojureReplHatHook. * :call b:vimclojure_repl.hatHook()<CR>
+	Last set from ~/dotvim/bundle/VimClojure/plugin/clojure.vim
+n  <Plug>ClojureStartLocalRepl. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#StartRepl"), [ b:vimclojure_namespace ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureStartRepl. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#StartRepl"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureEvalParagraph. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#EvalParagraph"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureEvalToplevel. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#EvalToplevel"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+v  <Plug>ClojureEvalBlock. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#EvalBlock"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureEvalLine. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#EvalLine"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureEvalFile. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#EvalFile"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureMacroExpand1. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#MacroExpand"), [ 1 ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureMacroExpand. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#MacroExpand"), [ 0 ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureRunTests. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#RunTests"), [ 0 ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureRequireFileAll. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#RequireFile"), [ 1 ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureRequireFile. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#RequireFile"), [ 0 ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureGotoSourceInteractive. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#GotoSource"), [ input("Symbol to go to: ") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureGotoSourceWord. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#GotoSource"), [ expand("<cword>") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureSourceLookupInteractive. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#SourceLookup"), [ input("Symbol to look up: ") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureSourceLookupWord. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#SourceLookup"), [ expand("<cword>") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureMetaLookupInteractive. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#MetaLookup"), [ input("Symbol to look up: ") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureMetaLookupWord. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#MetaLookup"), [ expand("<cword>") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureFindDoc. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#FindDoc"), [  ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureJavadocLookupInteractive. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#JavadocLookup"), [ input("Class to lookup: ") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureJavadocLookupWord. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#JavadocLookup"), [ expand("<cword>") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureDocLookupInteractive. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#DocLookup"), [ input("Symbol to look up: ") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureDocLookupWord. * :<C-U>call vimclojure#ProtectedPlug( function("vimclojure#CommandPlug"), [ function("vimclojure#DocLookup"), [ expand("<cword>") ]])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureToggleParenRainbow. * :<C-U>call vimclojure#ProtectedPlug(function("vimclojure#ToggleParenRainbow"), [  ])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <Plug>ClojureAddToLispWords. * :<C-U>call vimclojure#ProtectedPlug(function("vimclojure#AddToLispWords"), [ expand("<cword>") ])<CR>
+	Last set from ~/dotvim/bundle/VimClojure/autoload/vimclojure.vim
+n  <SNR>125_   * <SNR>125_
+	Last set from ~/dotvim/bundle/vim-rspec/plugin/rspec.vim
+n  <Plug>BlockToggle * :<C-U>call <SNR>124_ToggleDoEndOrBrackets()<CR>
+	Last set from ~/dotvim/bundle/blockle.vim/plugin/blockle.vim
+o  <Plug>(textobj-rubyblock-i) * :<C-U>call g:__textobj_rubyblock.do_by_function("select-i","-","o")<CR>
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+v  <Plug>(textobj-rubyblock-i) * :<C-U>call g:__textobj_rubyblock.do_by_function("select-i","-","v")<CR>
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+o  <Plug>(textobj-rubyblock-a) * :<C-U>call g:__textobj_rubyblock.do_by_function("select-a","-","o")<CR>
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+v  <Plug>(textobj-rubyblock-a) * :<C-U>call g:__textobj_rubyblock.do_by_function("select-a","-","v")<CR>
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+n  <SNR>110_   * <SNR>110_
+	Last set from ~/dotvim/bundle/vim-textobj-user/autoload/textobj/user.vim
+n  <Plug>GitGutterPreviewHunk * :GitGutterPreviewHunk<CR>
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  <Plug>GitGutterRevertHunk * :GitGutterRevertHunk<CR>
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  <Plug>GitGutterStageHunk * :GitGutterStageHunk<CR>
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  <Plug>GitGutterPrevHunk * &diff ? '[c' : ":\<C-U>execute v:count1 . 'GitGutterPrevHunk'\<CR>"
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  <Plug>GitGutterNextHunk * &diff ? ']c' : ":\<C-U>execute v:count1 . 'GitGutterNextHunk'\<CR>"
+	Last set from ~/dotvim/bundle/vim-gitgutter/plugin/gitgutter.vim
+n  <SNR>96_VisualNrrwRgn * :set opfunc=<SNR>96_NrrwRgnOp<CR>g@
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+x  <SNR>96_VisualNrrwBang * :<C-U>call nrrwrgn#NrrwRgn(visualmode(),'!')<CR>
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+x  <SNR>96_VisualNrrwRgn * :<C-U>call nrrwrgn#NrrwRgn(visualmode(),'')<CR>
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+x  <Plug>NrrwrgnBangDo & <SNR>96_VisualNrrwBang
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+n  <Plug>NrrwrgnDo & <SNR>96_VisualNrrwRgn
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+x  <Plug>NrrwrgnDo & <SNR>96_VisualNrrwRgn
+	Last set from ~/dotvim/bundle/NrrwRgn/plugin/NrrwRgn.vim
+n  <Plug>CalendarH * :cal Calendar(1)<CR>
+	Last set from ~/dotvim/bundle/calendar.vim--Matsumoto/plugin/calendar.vim
+n  <Plug>CalendarV * :cal Calendar(0)<CR>
+	Last set from ~/dotvim/bundle/calendar.vim--Matsumoto/plugin/calendar.vim
+n  <Plug>IndentGuidesDisable & :IndentGuidesDisable<CR>
+	Last set from ~/dotvim/bundle/Indent-Guides/plugin/indent_guides.vim
+n  <Plug>IndentGuidesEnable & :IndentGuidesEnable<CR>
+	Last set from ~/dotvim/bundle/Indent-Guides/plugin/indent_guides.vim
+n  <Plug>IndentGuidesToggle & :IndentGuidesToggle<CR>
+	Last set from ~/dotvim/bundle/Indent-Guides/plugin/indent_guides.vim
+n  <Plug>RestoreWinPosn   :call RestoreWinPosn()<CR>
+	Last set from ~/dotvim/bundle/vim-align/plugin/cecutil.vim
+n  <Plug>SaveWinPosn   :call SaveWinPosn()<CR>
+	Last set from ~/dotvim/bundle/vim-align/plugin/cecutil.vim
+   <Plug>AM_tt & <SNR>82_WS:AlignCtrl mIp1P1=l \\\@<!& \\\\<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_tsq & <SNR>82_WS:'a,.AlignReplaceQuotedSpaces<CR>:'a,.s/^\(\s*\)\(.*\)/\=submatch(1).substitute(submatch(2),'\s\+','@','g')/<CR>:AlignCtrl mIp0P0=l @<CR>:'a,.Align<CR>:'y+1,'z-1s/[%@]/ /g<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_tsp & <SNR>82_WS:'a,.s/^\(\s*\)\(.*\)/\=submatch(1).escape(substitute(submatch(2),'\s\+','@','g'),'\')/<CR>:AlignCtrl mI=lp0P0 @<CR>:'a,.Align<CR>:'y+1,'z-1s/@/ /g<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_tml & <SNR>82_WS:AlignCtrl mWp1P0=l \\\@<!\\\s*$<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_tab & <SNR>82_WS:'a,.s/^\(\t*\)\(.*\)$/\=submatch(1).escape(substitute(submatch(2),'\t',"\<C-O>",'g'),'\')/<CR>:if &ts == 1|exe "AlignCtrl mI=lp0P0 \<C-O>"|else|exe "AlignCtrl mI=l \<C-O>"|endif<CR>:'a,.Align<CR>:exe "'y+1,'z-1s/\<C-O>/".((&ts == 1)? '\t' : ' ')."/g"<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_m= & <SNR>82_WS:'a,'zs/\s\+\([*/+\-%|&\~^]\==\)/ \1/e<CR>:'a,'zs@ \+\([*/+\-%|&\~^]\)=@\1=@ge<CR>:'a,'zs/==/\="\<C-O>\<C-O>"/ge<CR>:'a,'zs/!=/\="!\<C-O>"/ge<CR>'zk:AlignCtrl mIp1P1=l =<CR>:AlignCtrl g =<CR>:'a,'z-1Align<CR>:'a,'z-1s@\([*/+\-%|&\~^!=]\)\( \+\)=@\2\1=@ge<CR>:'a,'z-1s/\( \+\);/;\1/ge<CR>:'a,'z-s/%\ze[^=]/ @%@ /e<CR>'zk:call AlignMaps#StdAlign(1)<CR>:'y,'zs/^\(\s*\) @/\1/e<CR>:'a,'z-1s/\xff/=/ge<CR>:'y,'zs/ @//eg<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t@ & <SNR>82_WS::call AlignMaps#StdAlign(1)<CR>:<SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t~ & <SNR>82_WS:AlignCtrl mIp0P0=l ~<CR>:'a,.Align<CR>:'y,'zs/ \( *\);/;\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t? & <SNR>82_WS:AlignCtrl mIp0P0=l ?<CR>:'a,.Align<CR>:.,'zs/ \( *\);/;\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_w= & <SNR>82_WS:'a,'zg/=/s/\s\+\([*/+\-%|&\~^]\==\)/ \1/e<CR>:'a,'zg/=/s@ \+\([*/+\-%|&\~^]\)=@\1=@ge<CR>:'a,'zg/=/s/==/\="\<C-O>\<C-O>"/ge<CR>:'a,'zg/=/s/!=/\="!\<C-O>"/ge<CR>'zk:AlignCtrl mWp1P1=l =<CR>:AlignCtrl g =<CR>:'a,'z-1g/=/Align<CR>:'a,'z-1g/=/s@\([*/+\-%|&\~^!=]\)\( \+\)=@\2\1=@ge<CR>:'a,'z-1g/=/s/\( \+\);/;\1/ge<CR>:'a,'z-1v/^\s*\/[*/]/s/\/[*/]/@&@/e<CR>:'a,'z-1v/^\s*\/[*/]/s/\*\//@&/e<CR>'zk:call AlignMaps#StdAlign(1)<CR>:'y,'zs/^\(\s*\) @/\1/e<CR>:'a,'z-1g/=/s/\xff/=/ge<CR>:'y,'zg/=/s/ @//eg<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_ts= & <SNR>82_WS:AlignCtrl mIp1P1=l =<CR>:'a,.Align<CR>:sil 'y+1,'z-1s/\(\s*\)=/=\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_ts< & <SNR>82_WS:AlignCtrl mIp1P1=l <<CR>:'a,.Align<CR>:sil 'y+1,'z-1s/\(\s*\)</<\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_ts; & <SNR>82_WS:AlignCtrl mIp1P1=l ;<CR>:'a,.Align<CR>:sil 'y+1,'z-1s/\(\s*\);/;\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_ts: & <SNR>82_WS:AlignCtrl mIp1P1=l :<CR>:'a,.Align<CR>:sil 'y+1,'z-1s/\(\s*\):/:\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_ts, & <SNR>82_WS:AlignCtrl mIp0P1=l ,<CR>:'a,.Align<CR>:sil 'y+1,'z-1s/\(\s*\),/,\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t= & <SNR>82_WS:call AlignMaps#Equals()<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t< & <SNR>82_WS:AlignCtrl mIp0P0=l <<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t; & <SNR>82_WS:AlignCtrl mIp0P1=l ;<CR>:'a,.Align<CR>:sil 'y,'zs/\( *\);/;\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t: & <SNR>82_WS:AlignCtrl mIp1P1=l :<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t, & <SNR>82_WS:AlignCtrl mIp0P1=l ,<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t# & <SNR>82_WS:AlignCtrl mIp0P0=l #<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_t| & <SNR>82_WS:AlignCtrl mIp0P0=l |<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T~ & <SNR>82_WS:AlignCtrl mIp0P0=r ~<CR>:'a,.Align<CR>:'y,'zs/ \( *\);/;\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_Tsp & <SNR>82_WS:'a,.s/^\(\s*\)\(.*\)/\=submatch(1).escape(substitute(submatch(2),'\s\+','@','g'),'\')/<CR>:AlignCtrl mI=r @<CR>:'a,.Align<CR>:'y+1,'z-1s/@/ /g<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_Tab & <SNR>82_WS:'a,.s/^\(\t*\)\(.*\)/\=submatch(1).escape(substitute(submatch(2),'\t','@','g'),'\')/<CR>:AlignCtrl mI=r @<CR>:'a,.Align<CR>:'y+1,'z-1s/@/ /g<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T@ & <SNR>82_WS:AlignCtrl mIp0P0=r @<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T? & <SNR>82_WS:AlignCtrl mIp0P0=r ?<CR>:'a,.Align<CR>:'y,'zs/ \( *\);/;\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T= & <SNR>82_WS:'a,'z-1s/\s\+\([*/+\-%|&\~^]\==\)/ \1/e<CR>:'a,'z-1s@ \+\([*/+\-%|&\~^]\)=@\1=@ge<CR>:'a,'z-1s/; */;@/e<CR>:'a,'z-1s/==/\="\<C-O>\<C-O>"/ge<CR>:'a,'z-1s/!=/\x="!\<C-O>"/ge<CR>:AlignCtrl mIp1P1=r = @<CR>:AlignCtrl g =<CR>:'a,'z-1Align<CR>:'a,'z-1s/; *@/;/e<CR>:'a,'z-1s/; *$/;/e<CR>:'a,'z-1s@\([*/+\-%|&\~^]\)\( \+\)=@\2\1=@ge<CR>:'a,'z-1s/\( \+\);/;\1/ge<CR>:'a,'z-1s/\xff/=/ge<CR><SNR>82_WE:exe "norm <Plug>acom"
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T< & <SNR>82_WS:AlignCtrl mIp0P0=r <<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T; & <SNR>82_WS:AlignCtrl mIp0P0=r ;<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T: & <SNR>82_WS:AlignCtrl mIp1P1=r :<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_Ts, & <SNR>82_WS:AlignCtrl mIp0P1=r ,<CR>:'a,.Align<CR>:'a,.s/\(\s*\),/,\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T, & <SNR>82_WS:AlignCtrl mIp0P1=r ,<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T# & <SNR>82_WS:AlignCtrl mIp0P0=r #<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_T| & <SNR>82_WS:AlignCtrl mIp0P0=r |<CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_Htd & <SNR>82_WS:'y,'zs%<[tT][rR]><[tT][dD][^>]\{-}>\|</[tT][dD]><[tT][dD][^>]\{-}>\|</[tT][dD]></[tT][rR]>%@&@%g<CR>'yjma'zk:AlignCtrl m=Ilp1P0 @<CR>:'a,.Align<CR>:'y,'zs/ @/@/<CR>:'y,'zs/@ <[tT][rR]>/<[tT][rR]>/ge<CR>:'y,'zs/@//ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_aenum & <SNR>82_WS:'a,'zs/\%([0-9.]\)\s\+\([-+]\=\d\)/\1@\2/ge<CR>:'a,'zs/\.@/\.0@/ge<CR>:AlignCtrl wmp0P0r<CR>:'a,'zAlign [,@]<CR>:'a,'zs/@/ /ge<CR>:'a,'zs/\(,\)\(\s\+\)\([-0-9.,eE+]\+\)/\1\3\2/ge<CR>:'a,'zs/\([eE]\)\(\s\+\)\([0-9+\-+]\+\)/\1\3\2/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_aunum & <SNR>82_WS:'a,'zs/\%([0-9.]\)\s\+\zs\([-+.]\=\d\)/@\1/ge<CR>:'a,'zs/\(\(^|\s\)\d\+\)\(\s\+\)@/\1@\3@/ge<CR>:'a,'zs/\.@/\.0@/ge<CR>:AlignCtrl wmp0P0r<CR>:'a,'zAlign [.@]<CR>:'a,'zs/@/ /ge<CR>:'a,'zs/\(\.\)\(\s\+\)\([0-9.,eE+]\+\)/\1\3\2/ge<CR>:'a,'zs/\([eE]\)\(\s\+\)\([0-9+\-+]\+\)/\1\3\2/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_afnc & :<C-U>set lz<CR>:silent call AlignMaps#Afnc()<CR>:set nolz<CR>
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_adef & <SNR>82_WS:AlignPush<CR>:AlignCtrl v ^\s*\(\/\*\|\/\/\)<CR>:'a,.v/^\s*\(\/\*\|\/\/\)/s/^\(\s*\)#\(\s\)*define\s*\(\I[a-zA-Z_0-9(),]*\)\s*\(.\{-}\)\($\|\/\*\)/#\1\2define @\3@\4@\5/e<CR>:'a,.v/^\s*\(\/\*\|\/\/\)/s/\($\|\*\/\)/@&/e<CR>'zk:call AlignMaps#StdAlign(1)<CR>'yjma'zk:'a,.v/^\s*\(\/\*\|\/\/\)/s/ @//g<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_adec & <SNR>82_WS:'a,'zs/\([^ \t/(]\)\([*&]\)/\1 \2/e<CR>:'y,'zv/^\//s/\([^ \t]\)\s\+/\1 /ge<CR>:'y,'zv/^\s*[*/]/s/\([^/][*&]\)\s\+/\1/ge<CR>:'y,'zv/^\s*[*/]/s/^\(\s*\%(\K\k*\s\+\%([a-zA-Z_*(&]\)\@=\)\+\)\([*(&]*\)\s*\([a-zA-Z0-9_()]\+\)\s*\(\(\[.\{-}]\)*\)\s*\(=\)\=\s*\(.\{-}\)\=\s*;/\1@\2#@\3\4@\6@\7;@/e<CR>:'y,'zv/^\s*[*/]/s/\*\/\s*$/@*\//e<CR>:'y,'zv/^\s*[*/]/s/^\s\+\*/@@@@@* /e<CR>:'y,'zv/^\s*[*/]/s/^@@@@@\*\(.*[^*/]\)$/&@*/e<CR>'yjma'zk:AlignCtrl v ^\s*[*/#]<CR>:call AlignMaps#StdAlign(1)<CR>:'y,'zv/^\s*[*/]/s/@ //ge<CR>:'y,'zv/^\s*[*/]/s/\(\s*\);/;\1/e<CR>:'y,'zv/^#/s/# //e<CR>:'y,'zv/^\s\+[*/#]/s/\([^/*]\)\(\*\+\)\( \+\)/\1\3\2/e<CR>:'y,'zv/^\s\+[*/#]/s/\((\+\)\( \+\)\*/\2\1*/e<CR>:'y,'zv/^\s\+[*/#]/s/^\(\s\+\) \*/\1*/e<CR>:'y,'zv/^\s\+[*/#]/s/[ \t@]*$//e<CR>:'y,'zs/^[*]/ */e<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_ascom & <SNR>82_WS:'a,.s/\/[*/]/@&@/e<CR>:'a,.s/\*\//@&/e<CR>:silent! 'a,.g/^\s*@\/[*/]/s/@//ge<CR>:AlignCtrl v ^\s*\/[*/]<CR>:AlignCtrl g \/[*/]<CR>'zk:call AlignMaps#StdAlign(2)<CR>:'y,'zs/^\(\s*\) @/\1/e<CR>:'y,'zs/ @//eg<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_aocom & <SNR>82_WS:AlignPush<CR>:AlignCtrl g /[*/]<CR>:exe "norm \<Plug>AM_acom"<CR>:AlignPop<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_adcom & <SNR>82_WS:'a,.v/^\s*\/[/*]/s/\/[*/]\*\=/@&@/e<CR>:'a,.v/^\s*\/[/*]/s/\*\//@&/e<CR>:'y,'zv/^\s*\/[/*]/s/^\( *\) @/\1@/e<CR>'zk:call AlignMaps#StdAlign(3)<CR>:'y,'zv/^\s*\/[/*]/s/^\(\s*\) @/\1/e<CR>:'y,'zs/ @//eg<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_acom & <SNR>82_WS:'a,.s/\/[*/]\/\=/@&@/e<CR>:'a,.s/\*\//@&/e<CR>:'y,'zs/^\( *\) @/\1@/e<CR>'zk:call AlignMaps#StdAlign(2)<CR>:'y,'zs/^\(\s*\) @/\1/e<CR>:'y,'zs/ @//eg<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_abox & <SNR>82_WS:let g:alignmaps_iws=substitute(getline("'a"),'^\(\s*\).*$','\1','e')<CR>:'a,'z-1s/^\s\+//e<CR>:'a,'z-1s/^.*$/@&@/<CR>:AlignCtrl m=p01P0w @<CR>:'a,.Align<CR>:'a,'z-1s/@/ * /<CR>:'a,'z-1s/@$/*/<CR>'aYP:s/./*/g<CR>0r/'zkYp:s/./*/g<CR>0r A/<Esc>:exe "'a-1,'z-1s/^/".g:alignmaps_iws."/e"<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_a= & <SNR>82_WS:AlignCtrl mIp1P1=l<CR>:AlignCtrl g :=<CR>:'a,'zAlign :\==<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_a( & <SNR>82_WS:AlignCtrl mIp0P1=l<CR>:'a,.Align [(,]<CR>:sil 'y+1,'z-1s/\(\s\+\),/,\1/ge<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_a< & <SNR>82_WS:AlignCtrl mIp1P1=l << >><CR>:'a,.Align<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_a, & <SNR>82_WS:'y,'zs/\(\S\)\s\+/\1 /ge<CR>'yjma'zk:call AlignMaps#CharJoiner(",")<CR>:silent 'y,'zg/,/call AlignMaps#FixMultiDec()<CR>'z:exe "norm \<Plug>AM_adec"<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <Plug>AM_a? & <SNR>82_WS:AlignCtrl mIp1P1lC ? : : : : <CR>:'a,.Align<CR>:'a,'z-1s/\(\s\+\)? /?\1/e<CR><SNR>82_WE
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+n  <Plug>AlignMapsWrapperEnd & :call AlignMaps#WrapperEnd()<CR>:set nolz<CR>
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+n  <SNR>82_WE    <Plug>AlignMapsWrapperEnd
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+v  <Plug>AlignMapsWrapperStart & :<C-U>set lz<CR>:call AlignMaps#WrapperStart(1)<CR>
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+n  <Plug>AlignMapsWrapperStart & :set lz<CR>:call AlignMaps#WrapperStart(0)<CR>
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+   <SNR>82_WS    <Plug>AlignMapsWrapperStart
+	Last set from ~/dotvim/bundle/vim-align/plugin/AlignMapsPlugin.vim
+v  <Plug>VgSurround * :<C-U>call <SNR>81_opfunc(visualmode(),visualmode() ==# 'V' ? 0 : 1)<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+v  <Plug>VSurround * :<C-U>call <SNR>81_opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>YSurround * :<C-U>set opfunc=<SNR>81_opfunc2<CR>g@
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Ysurround * :<C-U>set opfunc=<SNR>81_opfunc<CR>g@
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>YSsurround * :<C-U>call <SNR>81_opfunc2(v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Yssurround * :<C-U>call <SNR>81_opfunc(v:count1)<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>CSurround * :<C-U>call <SNR>81_changesurround(1)<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Csurround * :<C-U>call <SNR>81_changesurround()<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Dsurround * :<C-U>call <SNR>81_dosurround(<SNR>81_inputtarget())<CR>
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>SurroundRepeat * .
+	Last set from ~/dotvim/bundle/vim-surround/plugin/surround.vim
+n  <SNR>66_yrrecord * :call YRRecord3()<CR>
+	Last set from ~/dotvim/bundle/YankRing.vim/plugin/yankring.vim
+n  <Plug>NERDCommenterAltDelims * :call <SNR>60_SwitchToAlternativeDelimiters(1)<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterUncomment * :call NERDComment("x", "Uncomment")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterUncomment * :call NERDComment("n", "Uncomment")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterAlignBoth * :call NERDComment("x", "AlignBoth")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterAlignBoth * :call NERDComment("n", "AlignBoth")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterAlignLeft * :call NERDComment("x", "AlignLeft")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterAlignLeft * :call NERDComment("n", "AlignLeft")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterAppend * :call NERDComment("n", "Append")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterYank * :call NERDComment("x", "Yank")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterYank * :call NERDComment("n", "Yank")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterSexy * :call NERDComment("x", "Sexy")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterSexy * :call NERDComment("n", "Sexy")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterInvert * :call NERDComment("x", "Invert")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterInvert * :call NERDComment("n", "Invert")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterToEOL * :call NERDComment("n", "ToEOL")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterNested * :call NERDComment("x", "Nested")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterNested * :call NERDComment("n", "Nested")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterMinimal * :call NERDComment("x", "Minimal")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterMinimal * :call NERDComment("n", "Minimal")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterToggle * :call NERDComment("x", "Toggle")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterToggle * :call NERDComment("n", "Toggle")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterComment * :call NERDComment("x", "Comment")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterComment * :call NERDComment("n", "Comment")<CR>
+	Last set from ~/dotvim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+   <Plug>NERDTreeFocusToggle & :call <SNR>59_NERDTreeFocusToggle()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeSteppedClose & :call <SNR>59_NERDTreeSteppedClose()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeSteppedOpen & :call <SNR>59_NERDTreeSteppedOpen()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeMirrorToggle & :call <SNR>59_NERDTreeMirrorToggle()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeMirrorOpen & :call <SNR>59_NERDTreeMirrorOrCreate()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeTabsFind & :call <SNR>59_NERDTreeFindFile()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeTabsToggle & :call <SNR>59_NERDTreeToggleAllTabs()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeTabsClose & :call <SNR>59_NERDTreeCloseAllTabs()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+   <Plug>NERDTreeTabsOpen & :call <SNR>59_NERDTreeOpenAllTabs()
+	Last set from ~/dotvim/bundle/vim-nerdtree-tabs/nerdtree_plugin/vim-nerdtree-tabs.vim
+nox<BS>        * <SNR>130_do_space(1, "<BS>")
+	Last set from ~/dotvim/bundle/vim-space/plugin/space.vim
+v  <D-x>         "*d
+v  <D-c>         "*y
+v  <D-v>         "-d"*P
+n  <D-v>         "*P

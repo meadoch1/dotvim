@@ -133,10 +133,7 @@ Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'vim-pandoc/vim-pandoc'
 Bundle 'godlygeek/tabular'
-<<<<<<< HEAD
 
 " Entries for Erlang
 Bundle 'jimenezrick/vimerl'
-=======
 Bundle 'jgdavey/tslime.vim'
->>>>>>> 4fdba01e66a90ce20e413ec58e1ece48db4364ef
